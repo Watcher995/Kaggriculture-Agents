@@ -24,6 +24,6 @@
 | `v3_h2e` ⭐ | **Days 0–28:** a HourFormer encoder-decoder network (behaviour cloning, then PPO) plus rules for last-day delivery and wheat trading. **Day 29:** the heuristic day solver plans the final collection and selling. | Yes: `net/player.pt` |
 | `v3_h3e` | **Days 0–28:** a Transformer policy (behaviour cloning, then self-play PPO) with post-processing rules (overflow selling, melon replanting, last-day collection). **Day 29:** the heuristic day solver. | Yes: `net/policy.pt` |
 
-Weights are not included. You can train your own, or use the published weights of the top teams, which are linked from the [competition page](https://www.kaggle.com/competitions/kaggriculture). `v3_h2e` loads the 2nd-place format and `v3_h3e` loads the 3rd-place format.
+Weights are not included. You can train your own, or use the published weights of the top teams, which are linked from the [competition page](https://www.kaggle.com/competitions/kaggriculture). 
 
 `s1/` inside the v2 and v3 folders is the heuristic day solver. Its C++ core (`terminal_search.cpp`) is also shipped prebuilt as `terminal_search.so`, compiled for glibc 2.17.
