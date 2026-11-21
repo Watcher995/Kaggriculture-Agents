@@ -9,6 +9,8 @@
 
 <p align="center">
   <img src="./Qize%20He%20-%20Kaggriculture.png" alt="Kaggriculture Silver Medal Certificate - Qize He" width="800"/>
+  <br/><br/>
+  <img src="./Shiji%20Zheng%20-%20Kaggriculture.png" alt="Kaggriculture Silver Medal Certificate - Shiji Zheng" width="800"/>
   <!-- teammates: add your certificate here, e.g. <img src="./Your%20Name%20-%20Kaggriculture.png" alt="Kaggriculture Silver Medal Certificate - Your Name" width="800"/> -->
 </p>
 
